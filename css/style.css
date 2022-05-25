@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 56.25rem;
+    height: 56.25rem;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d0708f7;
+    color:#ffffff;
+}
+
+.menu{
+    display: flex;
+    column-gap: 2rem;
+}
+
+.menu > a{
+    color: #fff;
+    padding: 2rem 0.8rem;
+}
+
+.menu > a:hover{
+    background-color: blueviolet;
+}
+
+.active{
+    background-color: brown;
+}
+
+.cadastro > fieldset{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.2rem;
+}
