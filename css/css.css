@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Trebuchet MS','Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(to bottom right, #86b4dd, #072138);
+}
+.container {
+    margin: 0 auto;
+    max-width: 60rem;
+    height: 56.25rem;
+    
+    
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: #cfe8fd;
+    color: rgb(5, 5, 5);
+}
+h1{
+    padding: 2rem;
+}
+.menu{
+    display: flex;
+    column-gap: normal;
+    gap: 0.0001rem;
+    
+    
+}
+.menu>a{
+    color:  rgb(204, 159, 247);
+    padding: 2.87rem 0.25rem;
+    border-radius: 1rem;
+}
+.menu>a:hover{
+    background-color: aquamarine;
+}
+.ac1{
+    background-color:rgb(161, 182, 219);
+}
+.ac2{
+    background-color:rgb(78, 109, 161);
+}
+.ac3{
+    background-color:rgb(21, 46, 88);
+}
+.cadastro{
+    padding: 0.1rem 0.5rem;
+}
+.cadastro>fieldset{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.2rem;
+    border: none;
+}
+.cadastro>fieldset>legend{
+    text-align: center;
+    font-size: 1.1rem;
+}
