@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Trebuchet MS','Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 56.25rem;
+    height: 56.25rem;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d0708f7;
+    color: #fff;
+}
+
+.menu{
+    display: flex;
+    column-gap: normal;
+    gap: 0.1rem;
+
+}
+
+.menu > a{
+    color: #fff;
+    padding: 2.87rem 0;
+}
+
+.menu > a:hover{
+    background-color: blueviolet;
+}
+
+.active{
+    background-color: brown;
+}
+
+.cadastro > fieldset{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.2rem;
+    border: none;
+}
+
+.cadastro > fieldset legend{
+    text-align: center;
+    font-size: 0.8rem;
+}
