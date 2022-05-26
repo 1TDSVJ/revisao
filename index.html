@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./js/script.js" defer></script>
     <title>REVISÃO - 1</title>
 </head>
 <body>
@@ -22,13 +23,14 @@
                 <fieldset>
                     <legend>NEWSLETTER</legend>
                     <div>
-                        <input type="text" name="nmUser" id="nmUserId" placeholder="Nome">
+                        <input type="text" name="nmUser" id="nmUserId" placeholder="Nome" pattern="[A-Za-z]{0,120}" title="Somente letras são admitidas nesse campo!">
                     </div>
                     <div>
                         <input type="email" name="emailUser" id="emailUserId" placeholder="Email">
                     </div>
                     <div>
                         <input type="button" id="btnEnviar" value="Cadastrar">
+                        <!-- <input type="submit" value="ENVIAR"> -->
                     </div>
                 </fieldset>
             </form>
