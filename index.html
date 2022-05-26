@@ -5,6 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="./js/script.js" defer></script>
         <title>REVISÃO</title>
     </head>
     <body>
@@ -14,14 +16,14 @@
                 <h1 class="titulo">REVISÃO</h1>
                 <nav class="menu">
                     <a href="#" class="active">Exemplo-1</a>
-                    <a href="#">Exemplo-2</a>
-                    <a href="#">Exemplo-3</a>
+                    <a href="./exemplo-2.html">Exemplo-2</a>
+                    <a href="./exemplo-3.html">Exemplo-3</a>
                 </nav>
                 <form class="cadastro" action="index.html" method="get">
                     <fieldset>
                         <legend>NEWSLETTER</legend>
                         <div>
-                            <input type="text" name="nmUser" id="nmUserId" placeholder="Nome">
+                            <input type="text" name="nmUser" id="nmUserId" placeholder="Nome" pattern="[A-Za-z]{0,120}" title="Somente letras são admitidas nesse campo!">
                         </div>
                         <div>
                             <input type="email" name="emailUser" id="emailUserId" placeholder="email">
@@ -32,6 +34,25 @@
                     </fieldset>
                 </form>
             </header>
+
+            <h2 class="tit-img">SEÇÃO IMAGENS</h2>
+
+            <section class="box-img">
+                <figure>
+                    <img src="./img/MicrosoftTeams-image (1).png" alt="">
+                    <figcaption>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab a corrupti doloremque, hic quo dignissimos, neque placeat voluptatem, omnis architecto temporibus molestias aliquid facere doloribus voluptas obcaecati numquam dolor expedita?</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="./img/MicrosoftTeams-image.png" alt="">
+                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit placeat maxime enim eaque nesciunt, esse ipsam nostrum? Porro vel illum numquam quae, facilis cupiditate unde omnis dicta soluta earum enim!</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="./img/MicrosoftTeams-image (2).png" alt="">
+                    <figcaption>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam blanditiis velit amet perferendis modi. Et, odio, veniam neque ex, sed temporibus placeat tempore quos repudiandae doloribus necessitatibus sapiente id veritatis.</figcaption>
+                </figure>
+            </section>
 
         </div>
     </body>
