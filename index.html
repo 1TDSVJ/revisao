@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="script.js"></script>
     <title>Revisão</title>
+    
 </head>
 <body>
     <div class="container">
@@ -14,26 +16,44 @@
             <h1 class="titulo">Revisão</h1>
            <nav class="menu">
             <a href="#" class="active">Exemplo1</a>
-            <a href="#">Exemplo2</a>
-            <a href="#">Exemplo3</a>
+            <a href="ex-02.html">Exemplo2</a>
+            <a href="ex-03.html">Exemplo3</a>
         </nav>
         <form class="cadastro" action="index.html" method="get">
             <fieldset>
                 <legend>NEWSLETTER</legend>
                    <div>
-                        <input type="text" name="nmUser" placeholder="Nome" id="nmUserId">
+                        <input type="text" name="nmUser" placeholder="Nome" id="nmUserId" pattern="[A-Za-z].{0,120}" title="Somente letras são adimitidas nessse campo">
                     </div>
                     <div>
                         <input type="email" name="emailUser" placeholder="Email" id="emailUserId">
                     </div>
 
                    <div>
+                      <!--<input type="button" id="btnEnviar" value="Cadastrar"> -->
                        <input type="button" id="btnEnviar" value="Cadastrar">
                    </div>
 
             </fieldset>
         </form>
         </header>
+
+        <h2 class="tit-img">SEÇÃO IMAGENS</h2>
+        <section class="box-img">
+            
+            <figure>
+                <img src="img/ryan-reinolds.jpg" alt="Ryan Reinolds">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sit ipsum! Quos ratione possimus error? Pariatur sed facilis praesentium alias dolorem, nemo sunt veniam est necessitatibus ipsam porro error inventore!</p>
+            </figure>
+            <figure>
+                <img src="img/negasonic_collossus-dopinder.jpg" alt="Colosso">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore id non, quam quod quas numquam, debitis impedit necessitatibus beatae eligendi culpa, fuga eos sunt. Beatae sequi pariatur deleniti hic saepe.</p>
+            </figure>
+            <figure>
+                <img src="img/folder-2017.jpg" alt="Folder">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error repudiandae atque, unde provident itaque modi harum a recusandae, commodi, facilis doloribus in ducimus consectetur. Rem repellendus nisi vel eaque molestias!</p>
+            </figure>
+        </section>
 
     </div>
 </body>
