@@ -6,9 +6,8 @@
 }
 
 .container{
-    margin: 0 auto;
-    max-width: 56.25rem;
-    height: 56.25rem;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .cabecalho{
@@ -48,4 +47,19 @@
 .cadastro > fieldset legend{
     text-align: center;
     font-size: 1rem;
+}
+
+.tit-img{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
+.box-img{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-img img{
+    box-shadow: 0px 0px 10px 2px #830202;
 }
