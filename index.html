@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REVISÃO</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -21,17 +22,39 @@
                 <fieldset>
                     <legend>NEWSLETTER</legend>
                     <div>
-                        <input type="text" name="nmUser" id="nmUserID" placeholder="Digite seu nome">
+                        <input type="text" name="nmUser" id="nmUserID" placeholder="Digite seu nome" pattern="[A-Za-z]{0,120}" title="Somente letras são aceitas">
                     </div>
                     <div>
                         <input type="email" name="emailUser" id="emailUserID" placeholder="Digite seu email">
                     </div>
                     <div>
                         <input type="button" id="btnEnviar" value="Cadastrar">
+                        <!-- <input type="submit" value="ENVIAR"> -->
+
                     </div>
                 </fieldset>
             </form>
         </header>
+
+        <h2 class="tit-img">SEÇÃO IMAGENS</h2>
+
+        <section class="box-img">
+            <figure>
+                <img src="./img/2.png" alt="">
+                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="./img/1.png" alt="">
+                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="./img/3.png" alt="">
+                <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
+            </figure>
+            
+        </section>
     </div>
 </body>
 </html>
