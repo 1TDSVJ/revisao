@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revisao - 1</title>
     <link rel="stylesheet" href="./CSS/Style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <Script src="./js/script.js" defer></Script>
 </head>
     <body>
         <div class="container">
@@ -23,34 +24,34 @@
                     <fieldset>
                         <legend>NEWSLETTER</legend>
                         <div>
-                            <input type="text" name="nmUser" id="nmUserId" placeholder="Nome">
+                            <input type="text" name="nmUser" id="nmUserId" placeholder="Nome" pattern="[A-Za-z]{0,120}" title="Somente letras são admitidas nesse campo">
                         </div>
                         <div>
                             <input type="email" name="emailUser" id="emailUserId" placeholder="Email">
                         </div>
                         <div>
-                            <input type="button" id="btnEnviar" value="Cadastrar">
+                            <input type="button" id="btnEnviar" value="Cadastrar"> 
                         </div>
 
                     </fieldset>
                 </form>
             </header>
             
-            <h2></h2>
+            <h2 class="tit-img">SEÇÂO IMAGEMS</h2>
 
             <section class="box-img">
-                <div>
+                <figure>
                     <img src="./img/rayan.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, debitis.</p>
-                </div>
-                <div>
+                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, debitis.</figcaption>
+                </figure>
+                <figure>
                     <img src="./img/colososo.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, placeat?</p>
-                </div>
-                <div>
+                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, placeat?</figcaption>
+                </figure>
+                <figure>
                     <img src="./img/folder].png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, necessitatibus.</p>
-                </div>
+                    <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, necessitatibus.</figcaption>
+                </figure>
             </section>
 
         </div>
