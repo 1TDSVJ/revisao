@@ -4,9 +4,9 @@ const btn = document.getElementById('btnEnviar');
 function validaCampos(){
     const campos = document.querySelectorAll('input[type="text", input[type="email"]');
 
-    for(let i = 0; x < campos.length; i++){
-        if(campos[x].value == ''){
-            alert('O campo: ' + campos[x].name + ' não foi preenchido!')
+    for(let i = 0; i < campos.length; i++){
+        if(campos[i].value == ''){
+            alert('O campo: ' + campos[i].name + ' não foi preenchido!')
             return
         }
     }
